@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300..700&display=swap');
+
+/* Geral */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Akshar", sans-serif;
+    box-sizing: border-box;
+}
+
+
+/* Navbar */
+
+.section1-container {
+    background-image: url("../img/cidadefundo1.png");
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: transparent;
+    padding: 0 2rem;
+  }
+  
+  nav {
+    position: relative;
+  }
+  
+  .logo {
+    width: 120px;
+    margin-top: 15px;
+    margin-left: 100px;
+  }
+  
+  .navbar-items {
+    position: absolute;
+    right: 40%;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    display: inline-block;
+  }
+
+.navbar-items li {
+    display: inline-flex;
+    text-transform: uppercase;
+    margin-left: 25px;  
+}
+
+.navbar-items a {
+    font-size: 20px;
+    color: #0C2D57;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.navbar-items a:hover {
+    color: #535252;
+}
+
+.btn-container {
+    position: absolute;
+    right: 125px;
+    top: 25px;
+}
+
+.btn-container .default-btn {
+    padding: 5px 20px;
+    background-color: transparent;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid #FC6736;
+    font-size: 20px;
+    color: #FC6736;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn-container .default-btn:hover {
+    color: #0C2D57;
+    border: 2px solid #0C2D57;
+    border-radius: 10px;
+}
+
+nav .dropdown-btn button {
+    padding: 5px 35px;
+    background-color: transparent;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid #FC6736;
+    font-size: 20px;
+    color: #FC6736;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+nav .dropdown-btn button:hover{
+    padding-bottom: 110px;
+}
+
+.dropdown-btn {
+    display: inline-flex;
+}
+
+nav .dropdown-btn a {
+    display: block;
+    text-decoration: none;
+    color: #FC6736;
+    padding: 10px 15px;
+}
+
+nav .dropdown-btn .dropdown {
+    display: none;
+    position: absolute;
+    top: 60px;
+    background-color: transparent;
+    min-width: 100px;
+}
+
+.dropdown-btn:hover .dropdown {
+    display: block;
+
+}
+
+/* Slogan */
+
+.slogan-container {
+    width: auto;
+    height: 550px;
+    position: relative;
+}
+
+.slogan-container 
+.slongan-text .slogan-title {
+    position: absolute;
+    top: 105px;
+    left: 140px;
+}
+
+.slogan-container 
+.slongan-text h1 {
+    width: 460px;
+    height: 68px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Akshar;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.slogan-container 
+.slongan-text h1 span {
+    color: #FC6736;
+}
+
+.slogan-container 
+.slongan-text p {
+    width: 615px;
+    height: 167px;
+    flex-shrink: 0;
+    color: #000;    
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.slogan-container 
+.slongan-text p {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+.slogan-container .calendar-img {
+    width: 322px;
+    height: 304px;
+    position: absolute;
+    bottom: 100px;
+    right: 160px;
+}
